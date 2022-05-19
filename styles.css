@@ -1,0 +1,116 @@
+/* Home page */
+
+h1 {
+    font-size: 42px;
+    text-decoration: underline; 
+}
+
+h3 {
+    font-size: 28px;
+    color: midnightblue;
+}
+    
+ul {
+    width: 400px;
+    border-right: 5px dashed black;
+}
+
+li:nth-child(odd) {
+    background: lightgreen;
+}
+       
+img {
+    box-shadow: 4px 3px 8px gray;
+}
+
+a:link {
+    color: royalblue;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+}
+a:active {
+    color: magenta;
+}
+
+/* About page */
+
+h2 {
+    font-size: 34px;
+}
+
+caption {
+    width: 80px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background: lightcoral;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.flex-col {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    border: 3px solid black;
+    border-radius: 10px;
+    
+}
+
+tr:first-child > td, tr:first-child > th {
+    border-bottom: 1px solid black;
+}
+
+td:first-child, th:first-child {
+    border-right: 1px solid black;
+}
+
+td, th {
+    padding: 15px;
+}
+
+p {
+    font-size: 18px;
+}
+
+#huh {
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+
+
+/* Contact Page */
+
+form {
+    width: 350px;
+    border-right: 5px solid rgb(49, 163, 163);
+}
+        
+label {
+    background: lightgoldenrodyellow;
+}
+
+textarea {
+    box-shadow: 7px 1px 8px silver;
+}
+        
+input {
+    margin-top: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+#name-label {
+    margin-right: 52px
+}
+
+.mybtn {
+    width: 75px;
+    height: 35px;
+    background: rgb(162, 224, 224);
+}
